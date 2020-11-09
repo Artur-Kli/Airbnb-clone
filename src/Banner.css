@@ -1,0 +1,38 @@
+.banner {
+  height: 80vh;
+  position: relative;
+  background: url("https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.banner__info {
+  color: white;
+  padding-top: 30vh;
+  padding-left: 80px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 400px;
+}
+
+.banner__info > h1 {
+  line-height: 2rem;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button {
+  background-color: white;
+  margin-top: 15px;
+  text-transform: inherit;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: #ff7779;
+  color: white;
+  border-color: none;
+  transition: background-color .3s ease, color .3s ease;
+}

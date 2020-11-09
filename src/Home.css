@@ -1,0 +1,15 @@
+.home__section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+
+.home__impression{
+  background-color: black;
+}
+
+.home__impressionContext {
+  display: flex;
+  background-color: transparent;
+  padding: 30px 80px 0 80px;
+}

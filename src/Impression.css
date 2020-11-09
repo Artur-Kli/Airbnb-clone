@@ -1,0 +1,65 @@
+.impression__content {
+  top: 0;
+  width: 100%;
+}
+
+.impression__info {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.impression_infoText {
+  width: 40%;
+  color: white;
+}
+
+.impression_infoText > h4 {
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+.impression__info > button {
+  color: white;
+  background-color: inherit !important;
+  text-transform: inherit;
+  border: .5px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  width: 168px;
+}
+
+.impression__info > button:hover {
+  background-color: #ff7779 !important;
+  color: white;
+  border-color: none;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.impression__card {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.impression__cardLeft {
+  top: 0;
+  width: 50%;
+  padding-right: 15px;
+}
+
+.impression__cardRight {
+  width: 50%;
+  padding-left: 15px;
+}
+
+.impression__cardRightTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.impression__cardRightBottom {
+  margin-right: 28px;
+}
